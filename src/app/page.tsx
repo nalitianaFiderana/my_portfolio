@@ -167,7 +167,7 @@ export default function Home() {
           <p className="ml-[35px] mt-1.5 text-gray-400"><i className="underline">{data[language=="ENG"?1:2].item11}</i>: IEF ACEEM</p>
           <p className="ml-[35px] mt-1.5 text-gray-400"><i className="underline">{data[language=="ENG"?1:2].item12}</i>: Antananarivo, Madagascar</p>
           <p className="ml-[35px] mt-1.5 text-sky-800 italic"> {data[language=="ENG"?1:2].item13}</p>
-          <p className="ml-[35px] mt-2.5 md:text-[16px] text-[14px] italic">"{data[language=="ENG"?1:2].item14}"</p>
+          <p className="ml-[35px] mt-2.5 md:text-[16px] text-[14px] italic">--{data[language=="ENG"?1:2].item14}--</p>
       </div>
       <div className="h-fit p-2.5 shadow-xs shadow-amber-50/70 bg-gray-900/60 rounded-[10px]">
           <div className="m-[8px] flex flex-nowrap justify-start items-center-safe">
