@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Light.ttf') format('ttf'),
+       url('./fonts/Poppins-MediumItalic.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --wd_length: 13rem;
+  --font-primary: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+body {
+  width: 100vw;
+  background-image:url("./img/background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-primary);
+}
+
+.navbar > *{
+  transition: all;
+  transition-duration: 100ms;
+}
+
+.sp > *{
+  padding-inline: 5px;
+  margin-inline: 5px;
+  margin-block: 8px;
+  padding-block: 3px;
+}
+
+.typewriter{
+  font-family: 'Courier New', monospace;
+  color: white;
+  overflow: hidden;
+  border-right: 3px solid #505252;
+  white-space: nowrap;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-start infinite;
+}
+
+@keyframes handwriting {
+  to {
+    left: 100%;
+  }
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #c3e0de }
+}
+
+/*
+  light
+  --background: #ffffff;
+  --foreground: #171717;
+  */
