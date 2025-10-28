@@ -86,8 +86,8 @@ export default function Home() {
       item25:"En savoir plus"
     }
   }
-  let [language, setLanguage] = useState<string>('ENG');
-  let [activeNavbar, setActiveNavbar] = useState<string>('home');
+  const [language, setLanguage] = useState<string>('ENG');
+  const [activeNavbar, setActiveNavbar] = useState<string>('home');
 
   function changeNavbar(page : string){
     setActiveNavbar(page);
