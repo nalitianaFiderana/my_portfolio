@@ -179,7 +179,7 @@ export default function Home() {
           <p className="ml-[35px] mt-1.5 text-gray-400"><i className="underline">{data[language=="ENG"?1:2].item12}</i>: Antsobolo, Madagascar</p>
           <Link href={my_link[2]} target="_blank" className="ml-[35px] mt-1.5 text-sky-400 underline">{data[language=="ENG"?1:2].item25}</Link>
           <p className="ml-[35px] mt-1.5 text-sky-800 italic"> {data[language=="ENG"?1:2].item17}</p>
-          <p className="ml-[35px] mt-2.5 md:text-[16px] text-[14px] italic">"{data[language=="ENG"?1:2].item18}"</p>
+          <p className="ml-[35px] mt-2.5 md:text-[16px] text-[14px] italic">{data[language=="ENG"?1:2].item18}</p>
       </div>
     </div>
     <div className={`absolute w-[100vw] h-[100vh] bg-black/60 pt-[100px] px-[10%] ${(()=>handleNavBar('Project'))()}`}>
