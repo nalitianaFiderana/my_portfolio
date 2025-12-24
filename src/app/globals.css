@@ -52,6 +52,12 @@ body {
     blink-caret 0.75s step-start infinite;
 }
 
+.hide{
+  clip-path: inset(100%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 @keyframes handwriting {
   to {
     left: 100%;

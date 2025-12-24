@@ -102,7 +102,7 @@ export default function Home() {
     if(view == activeNavbar){
       return 'z-4';
     }else{
-      return 'transition-all duration-800 translate-z-[-100px] opacity-0';
+      return 'overflow-hidden transition-all duration-800 translate-z-[-100px] opacity-0';
     }
   }
   
